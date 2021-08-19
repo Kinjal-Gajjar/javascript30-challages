@@ -90,7 +90,7 @@ body{
     body {
       display: grid;
       width: 400px;
-      margin: 14px 30px;
+      margin: auto;
       grid-template-columns: repeat(1,1fr);
     }
 }
