@@ -71,17 +71,21 @@ body{
   @media only screen and (max-width: 800px)and (max-width: 1024px) {
     body {
       display: grid;
-      width: 400px;
+      width: 200px;
       margin: auto;
+      place-content: center;
+      place-items: center;
       grid-template-columns: repeat(3,1fr);
     }
   
   }
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 400px),(max-width: 600px) {
     body {
       display: grid;
       width: 400px;
-      margin:18px 54px;
+      margin:auto;
+      place-items: center;
+      place-content: center;
       grid-template-columns: repeat(2,1fr);
     }
   
