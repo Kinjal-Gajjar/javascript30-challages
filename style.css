@@ -68,19 +68,21 @@ body{
     50% { background-position: 400% 0; }
     100% { background-position: 0 0; }
   }
-  @media only screen and (max-width: 870px)and (max-width:1024) {
+  @media only screen and (max-width: 800px)and (max-width: 1024px) {
     body {
       display: grid;
+      width: 200px;
+      margin: auto;
       place-content: center;
       place-items: center;
-      margin:auto;
       grid-template-columns: repeat(3,1fr);
     }
   
   }
-  @media only screen and (max-width: 400px),(max-width: 600px),(max-width: 750px){
+  @media only screen and (max-width: 400px),(max-width: 600px) {
     body {
       display: grid;
+      width: 400px;
       margin:auto;
       place-items: center;
       place-content: center;
@@ -88,12 +90,11 @@ body{
     }
   
   }
-  @media only screen and (max-width: 410px) {
+  @media only screen and (max-width: 370px) {
     body {
       display: grid;
-       place-content: center;
-       place-items: center;
-       margin: auto;
+      width: 400px;
+      margin: auto;
       grid-template-columns: repeat(1,1fr);
     }
 }
